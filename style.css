@@ -1,0 +1,9 @@
+/*Separate/External CSS file to be linked to an
+html file*/
+p {
+    color: red;
+}
+
+a {
+    color: green;
+}
