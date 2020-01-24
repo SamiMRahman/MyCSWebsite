@@ -1,9 +1,43 @@
-/*Separate/External CSS file to be linked to an
+Separate/External CSS file to be linked to an
 html file*/
-p {
+
+
+/*
+HTML selector - names of HTML tags and are used to
+change the style of of a specific type of element
+ */
+/*
+px (such as font-size: 12px) is the unit for pixels.
+em (such as font-size: 2em) is the unit for the calculated size of a font. So “2em”, for example, is two times the current font size.
+pt (such as font-size: 12pt) is the unit for points, for measurements typically in printed media.
+% (such as width: 80%) is the unit for… wait for it… percentages.
+ */
+
+
+body {
+    /*propeties and their values*/
+    font-size: 14px;
     color: red;
 }
 
+h1 {
+    font-size: 2em;
+    color: #ffc;
+    background-color: #009;
+}
+h2 {
+    font-size: 1.5em;
+}
 a {
-    color: green;
+    text-decoration: none;
+}
+strong {
+    font-style: italic;
+    text-transform: uppercase;
+}
+p {
+    letter-spacing: 0.5em;
+    word-spacing: 2em
+    line-height: 1.5em;
+    text-align: center;
 }
