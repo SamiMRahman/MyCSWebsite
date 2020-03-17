@@ -1,4 +1,4 @@
-Separate/External CSS file to be linked to an
+/*Separate/External CSS file to be linked to an
 html file*/
 
 
@@ -13,6 +13,11 @@ pt (such as font-size: 12pt) is the unit for points, for measurements typically 
 % (such as width: 80%) is the unit for… wait for it… percentages.
  */
 
+ /*
+ Margin - space outside something
+ Padding - space inside something
+ Box Model: Element Box -> Padding Box -> Border Box -> Margin Box
+ */
 
 body {
     /*propeties and their values*/
@@ -24,9 +29,21 @@ h1 {
     font-size: 2em;
     color: #ffc;
     background-color: #009;
+    font-family: Cochin, cursive, Times, 'Times New Roman', serif;
 }
 h2 {
     font-size: 1.5em;
+    background-color: #ccc;
+    margin: 20px; /*Leaves 20 pixel width space around secondary header*/
+    padding: 40px; /*40 pixel width padding*/
+    /*margin-top, margin-right, margin-bottom, margin-left, padding-top, padding-right, padding-bottom, padding-left*/
+}
+h2 {
+    border-style: dashed;
+    border-width: 3px;
+    border-left-width: 10px; /*overrides "border-width"*/
+    border-right-width: 10px; /*overrides "border-width"*/
+    border-color: red;
 }
 a {
     text-decoration: none;
@@ -37,7 +54,12 @@ strong {
 }
 p {
     letter-spacing: 0.5em;
-    word-spacing: 2em
+    word-spacing: 2em;
     line-height: 1.5em;
     text-align: center;
+}
+img {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ccc;
 }
