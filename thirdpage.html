@@ -30,8 +30,16 @@
         width="150" height="120" alt="HTML DOG 2" >
     </p>
 
+    <!--Internal Scripting-->
     <script>
-        alert("Hello, World!");
+        for (var i = 1; i < 3; i++) {
+            alert("Hello, World!"); //creates alert at during loading of page
+        }
+        var surname = prompt('Greetings frined, may I enquire as to your surnmae?'); //opens prompt with text and textbox
+        var add = function (a, b) { //saving function as value of a variable
+            return a + b;
+        };
+        var result = add(1 , 2); //invoking function
     </script>
 
 </body>
