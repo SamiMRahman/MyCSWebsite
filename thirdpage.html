@@ -40,6 +40,30 @@
             return a + b;
         };
         var result = add(1 , 2); //invoking function
+        //create jedi object
+        var jedi = {
+            name: "Starkiller",
+            age: 23,
+            talk: function () { alert("Strongest Jedi Alert"); }
+        };
+        jedi.talk(); //produces an alert box
+        var person = {
+            age: 122
+        };
+        //create nested object
+        person.name = {
+            first: "Katt",
+            last: "Williams"
+        };
+        //create empty object and add properties/methods to it
+        var dog = {};
+        dog.bark = function () {alert("Woofidy Woof!");};
+        //array properties and syntax
+        var shoppingList = ['Milk', 'Bread', 'Beans']; //intialize array
+        shoppingList[2] = 'Turkey'; //replace array at index 2
+        shoppingList.push('Beans'); //add to end of array
+        shoppingList.pop(); //remove element from end of array
+        //array.length,
     </script>
 
 </body>
